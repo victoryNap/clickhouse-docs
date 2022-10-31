@@ -269,15 +269,14 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
-      /*      announcementBar: {
-              id: 'support_us',
+      announcementBar: {
+              id: 'onboarding_workshop',
               content:
-                'Check out our new 25-minute video on <a href="https://clickhouse.com/company/events/getting-started-with-clickhouse/" target="_blank"> Getting Started with ClickHouse</a>',
+                'New to ClickHouse? Register for a <a href="https://clickhouse.com/company/events/getting-started-with-clickhouse/" target="_blank"> free, live training workshop on November 10, 2022</a>',
               backgroundColor: '#0057b7',
               textColor: '#ffffff',
-              isCloseable: false,
+              isCloseable: true,
             },
-      */
     }),
 
   plugins: [
